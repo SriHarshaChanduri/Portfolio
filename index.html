@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Harsha - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="Index.html">SH</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Aboutme">About</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class=" mt-4 text-center" style="padding-bottom: 350px; font-family: system-ui; padding-top:150px ">
+        <section id="home">
+            <h2 class="typewriter container mt-4 text-center">Hi There</h2>
+        </section>
+
+        <h2 class="typewriter">
+            Welcome to My Portfolio <br />
+            I'm Chanduri Sri Harsha <br /> <span style="font-size:large"> DOTNET DEVELOPER</span><br />
+            <button class="btn btn-lg btn-custom" style="background-color: #148914; color: aliceblue" onclick="showAboutMe()">Know more about me</button>
+        </h2>
+    </div>
+    <div id="Aboutme" class="bg-dark" style="color:aliceblue; height: 300px; font-family: fangsong; font-size:x-large; line-height:40px">
+        <div class="mt-4 text-center about-me">
+            <h2>About Me</h2>
+            <p>Well, I am not a Web Designer or Graphics Designer <br /> But I'm more of a programmer who writes functionalities for Dotnet Applications., <br /> I've got knowledge of C, Java, and C#, but my work is purely based on C#. <br /> and also that this Portoflio website is made using <br /> ASP DOTNET MVC, which includes HTML, CSS, JavaScript, and C# programming languages <br /> Using my knowledge I Developed my own Portfolio <br /></p>
+        </div>
+    </div>
+    <section style="border-radius: 4px; padding-top:200px; padding-bottom:200px;" id="skills" class="mt-4">
+        <h2 class="text-center">Skills</h2>
+
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-4 ">
+                <div class="d-flex justify-content-around">
+                    <img src="html5.png" class="rounded" height="50" width="50" />
+                    <img src="css3.png" class="rounded" height="50" width="50" />
+                    <img src="bootstrap.png" class="rounded" height="50" width="60" />
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-4">
+                <div class="d-flex justify-content-around">
+                    <img src="CSharp.png" class="rounded" height="65" width="65" />
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-4">
+                <div class="d-flex justify-content-around">
+                    <img src="asp.png" class="rounded" height="70" width="70" />
+
+                    <img src="sql-server-2012-logo.png" class="rounded" height="65" width="65" />
+                    <img src="Postman.png" class="rounded" height="70" width="70" />
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="bg-dark mt-4 text-center" style="color: aliceblue; line-height: 50px; " >
+        <div class="container" id="experience" style="padding-bottom: 50px; font-family: fangsong; font-size:x-large;">
+            Work Experience <br />
+            <div class="Panel text-left" style="border:solid; border-radius:3px; width:fit-content; display:inline" ;>June 2023-Present</div> 
+            <div style="display: inline; border: solid; border-radius: 3px; width: fit-content;"> Working as Jr Software Developer at Techmatic Systems, Hyderabad, Telengana</div>
+        </div>
+
+    </section>
+    <section class="container text-center" style="padding-top: 100px; font-family: fangsong; font-size:x-large; padding-bottom:100px">
+        <div id="contact">Contact me </div>
+        <a  target="blank" href="https://github.com/SriHarshaChanduri"><i class="fa fa-github" style="font-size:36px;"></i></a>
+
+
+
+    </section>
+
+  
+
+
+    <script>
+        function showAboutMe() {
+            var aboutMeDiv = document.getElementById("Aboutme");
+            aboutMeDiv.style.display = "block";
+            aboutMeDiv.scrollIntoView({ behavior: 'smooth' });
+
+        }
+    </script>
+
+    <footer class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center" style="color:aliceblue">Written & Coded by Sri Harsha</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+    
+</html>
